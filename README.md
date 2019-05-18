@@ -5,7 +5,8 @@ This is KiCad GOST library.
 Parameter | Value / Description | Comment
 -------------- | ------------------------- | -------------
 **Grid** |
-grid to pins | *50 mils*
+grid to pins of common devices | *50 mils*
+grid to pins of IC | *100 mils*
 grid to graphic | *any*
 **Pin** |
 place pin names | *inside*
@@ -17,6 +18,6 @@ pin length of IC containing pins with graphic style | *0,300"*
 **Part** |
 lines width | *0,000"* | use global width settings
 reference and value text size | *0,079"* | approx. 2 mm
-part anchor of common devices | *geometric center*
-part anchor of IC | *left top pin*
 step of pins of IC | *a multiple of 0,200"* | 5,1 mm
+
+Other rules in accordance by [KLC](http://kicad-pcb.org/libraries/klc/)
